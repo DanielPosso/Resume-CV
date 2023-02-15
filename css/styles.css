@@ -1,0 +1,352 @@
+body {
+    background-color: #E5E5E5;
+    font-family: 'Montserrat', 'Arial';
+}
+
+.bodyAlt {
+    background-color: #fff;
+    margin: 0 3em 3em 3em;
+    padding: 2em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    line-height: 24px
+}
+
+footer {
+    height: 8vh;
+    font-weight: 400;
+    text-align: center;
+    font-size: large;
+}
+
+header {
+    height: 15vh;
+    text-align: center;
+}
+
+header h1 {
+    display: inline-block;
+    padding-top: 1em;
+    font-size: 25px;
+}
+
+/*.....................*/
+/* Contenido principal*/
+/*.....................*/
+
+.contenedor-principal {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    width: 1200px;
+    margin: 40px auto;
+}
+
+/*.....................*/
+/* Informacion general*/
+/*.....................*/
+
+.elemento-lista-principal {
+    color: #595959;
+
+}
+
+.informacion-general {
+    padding: 100px 88px;
+}
+
+/* Descripción*/
+
+.nombre {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.texto-descripcion {
+    width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+.descripcion-profesion {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Secciones principales*/
+
+.titulo-seccion-principal {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 45px;
+}
+
+.texto-naranja {
+    color: #FB6D3A;
+}
+
+/*Sección proyectos*/
+
+.lista-proyectos {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 17px;
+}
+
+.enlace-proyectos {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-decoration-line: underline;
+}
+
+.puntos-proyectos {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #595959;
+}
+
+/* Sección experiencia laboral*/
+
+.puesto.empresa {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 11px;
+}
+
+.periodo-empresa {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
+.lista-experiencia {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 17px;
+}
+
+.experiencia_laboralAlt {
+    margin-left: 5em;
+    width: 80%;
+    background-color: #465163;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.experiencia_laboralAlt div {
+    background-color: rgb(143, 185, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experiencia_laboralAlt div ul {
+    padding-left: 1em;
+}
+
+/*Sección eduación*/
+
+.educacion {
+    margin-top: 43px;
+}
+
+.titulo-educacion {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.universidad {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+
+}
+
+.titulo-universitario {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.periodo-universitario {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
+/*.....................*/
+/* Informacion lateral */
+/*.....................*/
+
+.informacion-lateral {
+    background-color: #465163;
+    padding: 40px 0;
+}
+
+/* Titulo lateral */
+
+.titulo-lateral {
+    color: white;
+    font-style: normal_;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 50px;
+}
+
+.contactos,
+.habilidades-tecnicas,
+.habilidades-blandas {
+    margin-left: 40px;
+}
+
+/* sección contactos */
+
+.tipo-contacto {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+
+.contacto-info {
+    color: rgb(165, 162, 162);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.lista-lateral {
+    padding-left: 17px;
+}
+
+.lista-lateral>li {
+    color: #FB6D3A;
+}
+
+/* Voy a usar este elemento también para soft-skills ya que
+tiene las propiedades iguales */
+.elemento-lista-lateral {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* responsive vibes */
+
+@media (max-width:991px) {
+
+    html {
+        font-size: 55%;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    .contenedor-principal {
+        display: initial;
+        flex-direction: unset;
+        width: 100%;
+        margin: 0
+    }
+
+    .informacion-general {
+        padding: 0;
+    }
+
+    .texto-descripcion {
+        display: unset;
+        width: 100%;
+    }
+
+    .nombre {
+        font-size: 38px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        margin-left: 70px;
+    }
+
+    .descripcion-profesion {
+        top: 50px;
+        left: 110px;
+        position: absolute;
+
+    }
+
+    .descripcion-datos,
+    .descripcion-texto {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .puntos-proyectos {
+        display: none;
+    }
+
+    .lista-proyectos,
+    .box-container {
+        display: initial;
+        margin-top: 12px;
+    }
+
+    .lista-proyectos,
+    .box-container .box {
+        height: 200px;
+        width: 85%;
+        margin-top: 0;
+    }
+
+    .informacion-lateral {
+        margin: 2px;
+        padding: 15px;
+        width: 99%;
+    }
+
+    .titulo-seccion-principal {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
