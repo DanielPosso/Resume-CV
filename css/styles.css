@@ -5,8 +5,11 @@ body {
 
 .bodyAlt {
     background-color: #fff;
-    margin: 0 3em 3em 3em;
+    margin: 0 auto;
     padding: 2em;
+    border: 2px solid cyan;
+    max-width: 80%;
+    justify-content: center;
 }
 
 main {
@@ -174,6 +177,10 @@ header h1 {
 
 .experiencia_laboralAlt div ul {
     padding-left: 1em;
+}
+
+.experiencia_laboralAlt div ul p{
+    font-size: 30px;
 }
 
 /*Sección eduación*/
